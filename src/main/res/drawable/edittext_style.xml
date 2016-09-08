@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list >
+            <item
+                android:bottom="@dimen/num_edittext_bottom"
+                android:left="@dimen/num_edittext_left"
+                android:right="@dimen/num_edittext_right"
+                android:top="@dimen/num_edittext_top">
+                <shape android:shape="rectangle" >
+                    <stroke
+                        android:width="@dimen/num_edittext_stroke_width"
+                        android:color="@color/edittextColor" />
+
+                    <solid android:color="@color/transparent" />
+
+                    <padding
+                        android:left="@dimen/num_edittext_padding"
+                        android:right="@dimen/num_edittext_padding"
+                        android:top="@dimen/num_edittext_padding"
+                        android:bottom="@dimen/num_edittext_padding"/>
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list >
+            <item
+                android:bottom="@dimen/num_edittext_bottom"
+                android:left="@dimen/num_edittext_left"
+                android:right="@dimen/num_edittext_right"
+                android:top="@dimen/num_edittext_top">
+                <shape android:shape="rectangle" >
+                    <stroke
+                        android:width="@dimen/num_edittext_stroke_width"
+                        android:color="@color/edittextColor" />
+
+                    <solid android:color="@color/transparent" />
+
+                    <padding
+                        android:left="@dimen/num_edittext_padding"
+                        android:right="@dimen/num_edittext_padding"
+                        android:top="@dimen/num_edittext_padding"
+                        android:bottom="@dimen/num_edittext_padding" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item>
+        <layer-list >
+            <item
+                android:bottom="@dimen/num_edittext_bottom"
+                android:left="@dimen/num_edittext_left"
+                android:right="@dimen/num_edittext_right"
+                android:top="@dimen/num_edittext_top">
+                <shape android:shape="rectangle" >
+                    <stroke
+                        android:width="@dimen/num_edittext_stroke_width"
+                        android:color="@color/edittextColor" />
+
+                    <solid android:color="@color/transparent" />
+
+                    <padding
+                        android:left="@dimen/num_edittext_padding"
+                        android:right="@dimen/num_edittext_padding"
+                        android:top="@dimen/num_edittext_padding"
+                        android:bottom="@dimen/num_edittext_padding" />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>
+
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#292926" />
+
+    <stroke
+        android:width="2dp"
+        android:color="#142b36" />
+    <corners
+        android:topLeftRadius="2dp"
+        android:topRightRadius="2dp"
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="2dp"
+
+        />
+
+</shape> -->

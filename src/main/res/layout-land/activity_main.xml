@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="manor9421.com.dailynutrition.MainActivity">
+    <fragment
+        android:id="@+id/navMenu"
+        class="manor9421.com.dailynutrition.MenuNavigationFragment"
+        android:layout_width="@dimen/zeroWidthHeight"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        />
+    <FrameLayout
+        android:id="@+id/infoFragment"
+        android:layout_width="@dimen/zeroWidthHeight"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="2"
+    android:padding="@dimen/new_ing_dialog_padding"
+    android:minWidth="250dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:text="@string/new_ing_dialog_text_main"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="@string/new_ing_dialog_text_kcal" />
+    <TextView
+        android:id="@+id/kcalCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="@string/new_ing_dialog_text_proteins" />
+    <TextView
+        android:id="@+id/proteinsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="@string/new_ing_dialog_text_lipids" />
+    <TextView
+        android:id="@+id/lipidsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="@string/new_ing_dialog_text_carbohydrates" />
+    <TextView
+        android:id="@+id/carbohydratesCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <View
+        android:layout_width="0dp"
+        android:minWidth="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/newIngOkButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:background="#30000000"
+        android:textColor="@color/mainTextColor"
+        android:text="@string/new_ing_dialog_text_ok"/>
+</GridLayout>

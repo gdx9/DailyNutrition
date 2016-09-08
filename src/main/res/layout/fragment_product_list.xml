@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="manor9421.com.dailynutrition.ProductListFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/prod_list_LinearLayout_layout_margin">
+                <EditText
+                    android:id="@+id/searchArea"
+                    android:layout_width="@dimen/prod_list_search_area_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@drawable/edittext_style"
+                    android:textColor="@color/mainTextColor"
+                    android:paddingTop="@dimen/prod_list_search_area_paddingTopBottom"
+                    android:paddingBottom="@dimen/prod_list_search_area_paddingTopBottom"
+                    android:paddingLeft="@dimen/prod_list_search_area_paddingLeftRight"
+                    android:paddingRight="@dimen/prod_list_search_area_paddingLeftRight"
+                    android:textSize="@dimen/prod_list_search_area_textSize"
+                    android:hint="@string/name" />
+                <Button
+                    android:id="@+id/startSearchButton"
+                    android:layout_width="@dimen/prod_list_search_button_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    style="@style/ButtonMainStyle"
+                    android:layout_margin="4dp"
+                    android:text="@string/prod_list_search_button" />
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/productsListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+</LinearLayout>

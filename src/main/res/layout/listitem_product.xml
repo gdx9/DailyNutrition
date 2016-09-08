@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@color/listItemBackground">
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/list_item_name_paddingLeft"
+        android:textSize="@dimen/list_item_name_textSize"
+        android:text="" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvKcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/list_item_val_layout_margin"
+            android:textColor="@color/kcal"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvProteins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/list_item_val_layout_margin"
+            android:textColor="@color/protein"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvFats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/list_item_val_layout_margin"
+            android:textColor="@color/lipid_tot"
+            android:text="" />
+        <TextView
+            android:id="@+id/tvCarb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/list_item_val_layout_margin"
+            android:textColor="@color/carbohydrt"
+            android:text="" />
+
+    </LinearLayout>
+</LinearLayout>

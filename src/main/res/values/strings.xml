@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Daily Nutrition</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_product">AddProduct</string>
+    <string name="title_activity_new_ingestion">NewIngestion</string>
+    <string name="title_activity_product_list">ProductList</string>
+    <string name="title_activity_daily_nutrition">DailyNutrition</string>
+
+    <string name="name">Name</string>
+    <string name="water">Water (g/100 g)</string>
+    <string name="kcal">Food energy (kcal/100 g)</string>
+    <string name="protein">Protein (g/100 g)</string>
+    <string name="lipid_tot">Total lipid(fat) (g/100 g)</string>
+    <string name="ash">Ash (g/100 g)</string>
+    <string name="carbohydrt">Carbohydrate(g/100 g)</string>
+    <string name="fiber_TD">Total dietary fiber (g/100 g)</string>
+    <string name="sugar_Tot">Total sugars (g/100 g)</string>
+    <string name="calcium">Calcium (mg/100 g)</string>
+    <string name="iron">Iron (mg/100 g)</string>
+    <string name="magnesium">Magnesium (mg/100 g)</string>
+    <string name="phosphorus">Phosphorus (mg/100 g)</string>
+    <string name="potassium">Potassium (mg/100 g)</string>
+    <string name="sodium">Sodium (mg/100 g)</string>
+    <string name="zinc">Zinc (mg/100 g)</string>
+    <string name="copper">Copper (mg/100 g)</string>
+    <string name="manganese">Manganese (mg/100 g)</string>
+    <string name="selenium">Selenium (μg/100 g)</string>
+    <string name="vit_C">Vitamin C (mg/100 g)</string>
+    <string name="thiamin">Thiamin (mg/100 g)</string>
+    <string name="riboflavin">Riboflavin (mg/100 g)</string>
+    <string name="niacin">Niacin (mg/100 g)</string>
+    <string name="panto_Acid">Pantothenic acid (mg/100 g)</string>
+    <string name="vit_B6">Vitamin B6 (mg/100 g)</string>
+    <string name="folate_Tot">Folate, total (μg/100 g)</string>
+    <string name="folic_Acid">Folic acid (μg/100 g)</string>
+    <string name="food_Folate">Food folate (μg/100 g)</string>
+    <string name="folate_DFE">Folate (μg dietary folate equivalents/100 g)</string>
+    <string name="choline_Tot">Choline, total (mg/100 g)</string>
+    <string name="vit_B12">Vitamin B12 (μg/100 g)</string>
+    <string name="vit_A_IU">Vitamin A (IU/100 g)</string>
+    <string name="vit_A_RAE">Vitamin A (μg retinol activity equivalents/100g)</string>
+    <string name="retinol">Retinol (μg/100 g)</string>
+    <string name="alpha_Carot">Alpha-carotene (μg/100 g)</string>
+    <string name="beta_Carot">Beta-carotene (μg/100 g)</string>
+    <string name="beta_Crypt">Beta-cryptoxanthin (μg/100 g)</string>
+    <string name="lycopene">Lycopene (μg/100 g)</string>
+    <string name="lutZea">Lutein+zeazanthin (μg/100 g)</string>
+    <string name="vit_E">Vitamin E (alpha-tocopherol) (mg/100 g)</string>
+    <string name="vit_D_µg">Vitamin D (μg/100 g)</string>
+    <string name="vit_D_IU">Vitamin D (IU/100 g)</string>
+    <string name="vit_K">Vitamin K (phylloquinone) (μg/100 g)</string>
+    <string name="FA_Sat">Saturated fatty acid (g/100 g)</string>
+    <string name="FA_Mono">Monounsaturated fatty acids (g/100 g)</string>
+    <string name="FA_Poly">Polyunsaturated fatty acids (g/100 g)</string>
+    <string name="cholestrl">Cholesterol (mg/100 g)</string>
+    <string name="date">Date</string>
+
+
+    <string name="thanks_text">Thanks for downloading this application!</string>
+    <string name="usda_thanks_text">Thanks USDA for \'National Nutrient Database for Standard Reference\'</string>
+    <string name="usda_materials_text">All materials has been taken from USDA \'National Nutrient Database for Standard Reference\'</string>
+    <string name="you_can_rate_it_text">You can rate this app in Play Store: </string>
+    <string name="rate_text">Rate</string>
+    <string name="write_to_dev_text">You can write a letter to developer: </string>
+    <string name="dev_email_text">Email me</string>
+
+
+    <string name="add_button">Add</string>
+
+    <string name="menu_nav_add_prod_text">Add Product</string>
+    <string name="menu_nav_prod_list_text">Product List</string>
+    <string name="menu_nav_new_ing_text">New Ingestion</string>
+    <string name="menu_nav_daily_food_text">Your Daily Food</string>
+
+    <string name="plus_button_text">+</string>
+    <string name="confirm_button_text">OK</string>
+
+    <string name="prod_list_search_button">Search</string>
+
+    <string name="new_ing_dialog_text_main">Added</string>
+    <string name="new_ing_dialog_text_kcal">Kcal: </string>
+    <string name="new_ing_dialog_text_proteins">Proteins: </string>
+    <string name="new_ing_dialog_text_lipids">Lipids(fats): </string>
+    <string name="new_ing_dialog_text_carbohydrates">Carbohydrates: </string>
+    <string name="new_ing_dialog_text_ok">OK</string>
+
+    <string name="welcome_text">Welcome</string>
+    <string name="welcome_info_text">This app use USDA \'National Nutrient Database for Standard Reference\',Release 28</string>
+
+
+</resources>

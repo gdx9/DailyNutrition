@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewIngestionActivity" >
+
+    <LinearLayout
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <GridLayout
+            android:id="@+id/newILayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/new_ing_grid_padding">
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/plusLineButton"
+            android:layout_width="@dimen/new_ing_plus_button_layout_width"
+            android:layout_height="@dimen/new_ing_plus_button_layout_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/plus_button"
+            android:textColor="@color/mainTextColor"
+            android:textSize="@dimen/new_ing_plus_button_textSize"
+            android:minWidth="@dimen/minWidthHeight"
+            android:minHeight="@dimen/minWidthHeight"
+            android:text="@string/plus_button_text"/>
+        <Button
+            android:id="@+id/toConfirmIngestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonMainStyle"
+            android:layout_gravity="right"
+            android:text="@string/confirm_button_text"/>
+    </LinearLayout>
+</ScrollView>

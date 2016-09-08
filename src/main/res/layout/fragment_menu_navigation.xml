@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuNavigationFragment">
+    <Button
+        android:id="@+id/addProductItem"
+        style="@style/MenuNavButtonStyle"
+        android:text="@string/menu_nav_add_prod_text" />
+    <Button
+        android:id="@+id/productListItem"
+        style="@style/MenuNavButtonStyle"
+        android:text="@string/menu_nav_prod_list_text"/>
+    <Button
+        android:id="@+id/newIngestionItem"
+        style="@style/MenuNavButtonStyle"
+        android:text="@string/menu_nav_new_ing_text" />
+    <Button
+        android:id="@+id/dailyFoodItem"
+        style="@style/MenuNavButtonStyle"
+        android:text="@string/menu_nav_daily_food_text" />
+</LinearLayout>

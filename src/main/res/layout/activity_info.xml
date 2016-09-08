@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="manor9421.com.dailynutrition.InfoActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thanks_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/usda_materials_text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_can_rate_it_text"/>
+    <Button
+        android:id="@+id/playStoreLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/InfoButtons"
+        android:text="@string/rate_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/write_to_dev_text"/>
+    <Button
+        android:id="@+id/developerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/InfoButtons"
+        android:text="@string/dev_email_text"/>
+
+
+</LinearLayout>

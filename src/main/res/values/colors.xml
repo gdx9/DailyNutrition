@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackgroundStart">#131313</color>
+    <color name="windowBackgroundEnd">#101010</color>
+    <color name="mainTextColor">#fffceb</color>
+    <color name="mainHintColor">#73716b</color>
+    <color name="itemBackground">#18171b</color>
+
+    <color name="listItemBackground">#303030</color>
+
+    <color name="menu_nav_background">#252424</color>
+    <color name="menu_nav_pressed_background">#383838</color>
+
+
+    <color name="name">#8b8b8b</color>
+    <color name="water">#5480f7</color>
+    <color name="kcal">#ff4d01</color>
+    <color name="protein">#fffdf8</color>
+    <color name="lipid_tot">#fdba46</color>
+    <color name="ash">#c2c2c2</color>
+    <color name="carbohydrt">#b7994d</color>
+    <color name="fiber_TD">#d2a75c</color>
+    <color name="sugar_Tot">#fffdf6</color>
+    <color name="calcium">#ffffff</color>
+    <color name="iron">#c0c0c0</color>
+    <color name="magnesium">#e76f51</color>
+    <color name="phosphorus">#66f270</color>
+    <color name="potassium">#ea7e44</color>
+    <color name="sodium">#fff8e2</color>
+    <color name="zinc">#949494</color>
+    <color name="copper">#c47724</color>
+    <color name="manganese">#8e8e8e</color>
+    <color name="selenium">#f5cf66</color>
+    <color name="vit_C">#ffcc40</color>
+    <color name="thiamin">#c6c6c6</color>
+    <color name="riboflavin">#c48440</color>
+    <color name="niacin">#7cacff</color>
+    <color name="panto_Acid">#f1522a</color>
+    <color name="vit_B6">#5fcf6f</color>
+    <color name="folate_Tot">#80e238</color>
+    <color name="folic_Acid">#46ff40</color>
+    <color name="food_Folate">#d6ff40</color>
+    <color name="folate_DFE">#52c733</color>
+    <color name="choline_Tot">#a1b717</color>
+    <color name="vit_B12">#ff8522</color>
+    <color name="vit_A_IU">#fff75a</color>
+    <color name="vit_A_RAE">#ff9040</color>
+    <color name="retinol">#f4ca83</color>
+    <color name="alpha_Carot">#ff9138</color>
+    <color name="beta_Carot">#ff8522</color>
+    <color name="beta_Crypt">#af68f5</color>
+    <color name="lycopene">#ff6c6c</color>
+    <color name="lutZea">#7cff40</color>
+    <color name="vit_E">#d97231</color>
+    <color name="vit_D_µg">#ffd640</color>
+    <color name="vit_D_IU">#ffd240</color>
+    <color name="vit_K">#46ff40</color>
+    <color name="FA_Sat">#f9f9f9</color>
+    <color name="FA_Mono">#dfdfdf</color>
+    <color name="FA_Poly">#cecece</color>
+    <color name="cholestrl">#c7af38</color>
+    <color name="date">#9661ff</color>
+
+    <color name="edittextColor">#334b8c</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="button_background_start">#323d5b</color>
+    <color name="button_background_end">#302966</color>
+    <color name="button_pressed_background">#152145</color>
+    <color name="s">#212020</color>
+    <color name="sw">#383838</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="text_size">20sp</dimen>
+
+    <dimen name="minWidthHeight">0dp</dimen>
+    <dimen name="zeroWidthHeight">0dp</dimen>
+
+
+    <dimen name="num_edittext_padding">3dp</dimen>
+    <dimen name="num_edittext_stroke_width">1dp</dimen>
+    <dimen name="num_edittext_bottom">1dp</dimen>
+    <dimen name="num_edittext_left">-2dp</dimen>
+    <dimen name="num_edittext_right">-2dp</dimen>
+    <dimen name="num_edittext_top">-2dp</dimen>
+
+    <dimen name="buttons_corners">2dp</dimen>
+
+
+    <dimen name="add_prod_layout_height">55dp</dimen>
+    <dimen name="add_prod_layout_width">160dp</dimen>
+    <dimen name="add_prod_layout_margin">3dp</dimen>
+
+    <dimen name="add_prod_et_padding_topbottom">4dp</dimen>
+    <dimen name="add_prod_et_padding_leftright">10dp</dimen>
+
+
+
+    <dimen name="new_ing_grid_padding">3dp</dimen>
+    <dimen name="new_ing_plus_button_layout_width">50dp</dimen>
+    <dimen name="new_ing_plus_button_layout_height">50dp</dimen>
+    <dimen name="new_ing_plus_button_textSize">30dp</dimen>
+
+
+    <dimen name="prod_list_LinearLayout_layout_margin">4dp</dimen>
+
+    <dimen name="prod_list_search_area_layout_width">0dp</dimen>
+    <dimen name="prod_list_search_area_paddingTopBottom">4dp</dimen>
+    <dimen name="prod_list_search_area_paddingLeftRight">10dp</dimen>
+    <dimen name="prod_list_search_area_textSize">24dp</dimen>
+    <dimen name="prod_list_search_button_layout_width">0dp</dimen>
+
+    <dimen name="list_item_name_paddingLeft">20dp</dimen>
+    <dimen name="list_item_name_textSize">20dp</dimen>
+    <dimen name="list_item_val_layout_margin">3dp</dimen>
+
+    <dimen name="new_ing_dialog_padding">20dp</dimen>
+
+    <dimen name="prod_details_item_tv_layout_margin">5dp</dimen>
+    <dimen name="prod_details_item_tv_paddingLeftRight">25dp</dimen>
+    <dimen name="prod_details_item_tv_textSize">20sp</dimen>
+
+    <dimen name="dev_info_margin_leftRight">20dp</dimen>
+    <dimen name="dev_info_padding_leftRingt">20dp</dimen>
+    <dimen name="dev_info_padding_topBottom">5dp</dimen>
+
+    <dimen name="welcome_text_size">40sp</dimen>
+    <dimen name="welcome_layout_marginTopBottom">5dp</dimen>
+    <dimen name="welcome_layout_marginLeftRight">20dp</dimen>
+
+</resources>

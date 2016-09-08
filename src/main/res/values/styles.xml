@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/gradient_background</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:textColorHint">@color/mainHintColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:itemBackground">@color/itemBackground</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_style</item>
+        <!-- <item name="android:textCursorDrawable">@drawable/edittext_cursor</item> -->
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="NumEditTextStyle" parent="EditTextStyle">
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="ButtonMainStyle">
+        <item name="android:background">@drawable/all_buttons</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+    </style>
+
+    <style name="MenuNavButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/menu_nav_background</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="InfoButtons">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginRight">@dimen/dev_info_margin_leftRight</item>
+        <item name="android:layout_marginLeft">@dimen/dev_info_margin_leftRight</item>
+        <item name="android:background">@drawable/all_buttons</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:paddingLeft">@dimen/dev_info_padding_leftRingt</item>
+        <item name="android:paddingRight">@dimen/dev_info_padding_leftRingt</item>
+        <item name="android:paddingTop">@dimen/dev_info_padding_topBottom</item>
+        <item name="android:paddingBottom">@dimen/dev_info_padding_topBottom</item>
+    </style>
+
+    <style name="WelcomeTV">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">@dimen/welcome_layout_marginTopBottom</item>
+        <item name="android:layout_marginBottom">@dimen/welcome_layout_marginTopBottom</item>
+        <item name="android:layout_marginLeft">@dimen/welcome_layout_marginLeftRight</item>
+        <item name="android:layout_marginRight">@dimen/welcome_layout_marginLeftRight</item>
+        <item name="android:textColor">@color/mainTextColor</item>
+        <item name="android:textSize">@dimen/welcome_text_size</item>
+    </style>
+</resources>
