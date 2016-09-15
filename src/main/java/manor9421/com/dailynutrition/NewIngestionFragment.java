@@ -37,7 +37,7 @@ public class NewIngestionFragment extends Fragment {
 
     MediaPlayer btnSound;
 
-    int height = 80;
+    int height = 60;
 
 
     @Override

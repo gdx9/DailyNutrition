@@ -33,7 +33,7 @@ public class InfoActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("market://details?id=app name"));
+                intent.setData(Uri.parse("market://details?id=manor9421.com.dailynutrition"));
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class InfoActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"mail@ya.com"});
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"manor9421@yahoo.co.jp"});
                 intent.setType("text/plain");
                 startActivity(intent);
             }

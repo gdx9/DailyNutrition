@@ -60,7 +60,7 @@
     </style>
 
     <style name="InfoButtons">
-        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:layout_marginRight">@dimen/dev_info_margin_leftRight</item>
         <item name="android:layout_marginLeft">@dimen/dev_info_margin_leftRight</item>
         <item name="android:background">@drawable/all_buttons</item>
